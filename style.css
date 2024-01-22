@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    transition: 1s;
+}
+.none {
+    display: none;
+    transition: 1s;
+}
+.click_1 {
+    padding: 20px 30px;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    width: 200px;
+    box-shadow: 0px 0px 100px 50px rgb(0, 0, 0);
+    font-weight: 700;
+    cursor: pointer;
+}
+.click_2 {
+    padding: 20px 30px;
+    font-size: 20px;
+    width: 200px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 0px 92px 50px rgb(255, 255, 255);
+    cursor: pointer;
+}
